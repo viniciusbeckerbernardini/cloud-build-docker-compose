@@ -2,7 +2,7 @@ FROM ubuntu:bionic
 
 ARG DOCKER_COMPOSE_VERSION
 
-# https://docs.docker.com/compose/install/
+# https://docs.docker.com/compose/install/ 
 RUN \
    apt-get -y update && \
    apt-get -y install ca-certificates curl docker.io && \
